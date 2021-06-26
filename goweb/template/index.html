@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {{if .Title}}
+        <title>{{.Title}} - page</title>
+    {{else}}
+        <title>Welcome come to my page</title>>
+    {{end}}
+</head>
+<body>
+    <hi>Hello,{{.User.UserName}}!</hi>
+</body>
+</html>
